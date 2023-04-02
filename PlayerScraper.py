@@ -13,6 +13,9 @@ import pandas as pd
 def player_index_page(letter):
     return "https://www.basketball-reference.com/players/{}/".format(letter)
 
+#https://www.nba.com/stats
+#https://www.espn.com/nba/stats
+
 def extract_column_names(table):
     columns = [col["aria-label"] for col in table.find_all("thead")[0].find_all("th")]
     columns.append("player")
