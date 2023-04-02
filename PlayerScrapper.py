@@ -258,7 +258,7 @@ def gamelogtable(lin):
 		tab_dict['Ast'] = Ast
 		tab_dict['Stl'] = Stl
 		tab_dict['Blk'] = Blk
-		tab_dict['TOv'] = TOv
+		tab_dict['TOv'] = TOV
 		tab_dict['PF'] = PF
 		tab_dict['plusMinus'] = plusMinus
 		writersss.writerow(tab_dict.values())
