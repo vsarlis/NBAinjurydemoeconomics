@@ -24,6 +24,8 @@ get_ipython().system('pip install beautifulsoup4')
 
 
 url = 'https://stats.nba.com/leaders/?Season=2019-20&SeasonType=Regular%20Season'
+#https://www.espn.com/nba/stats
+#https://www.basketball-reference.com/leagues/NBA_2023_leaders.html
 from selenium import webdriver
 browser = webdriver.PhantomJS('C:\\Users\\vsarlis\\phantomjs.exe')
 browser.get(url)
